@@ -11,3 +11,13 @@ We use this command for version controlling.
 $ git init
 ```
 
+* git add:
+
+We use this  command for updates the current content of the working tree to the staging area. To stagged all the unstaged file we use:
+```
+$ git add -A
+```
+And for stagging spacific file, We use: 
+```
+$ git add <file name>
+```
