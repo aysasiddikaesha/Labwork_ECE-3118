@@ -91,9 +91,24 @@ We can remove a remote connection from a repository. To remove a connection, per
 ```
 $ git remote rm <destination>  
 ```
-## Git Checkout
+## Git Checkout:
 
  The git checkout command is used to switch between branches in a repository. Be careful with your staged files and commits when switching between branches.
  ```
 $ git checkout <branchname> 
  ```
+## Git Fetch:
+We can fetch the complete repository with the help of fetch command from a repository URL like a pull command does.
+```
+$ git fetch <repository Url>
+```
+## Git Pull:
+We can pull the repository by using the git pull command. The syntax is given below:
+```
+$ git pull origin master  
+```
+## Git Push:
+Git push origin master is a special command-line utility that specifies the remote branch and directory. When we have multiple branches and directory, then this command assists us in determining our main branch and repository.
+```
+$ git push origin master  
+```
