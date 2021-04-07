@@ -47,3 +47,47 @@ The HEAD points out the last commit in the current checkout branch. It is like a
 ```
 $ git show HEAD
 ```
+## Git Remote:
+To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. If you want to see the original existence of your cloned repository, use the git remote command. It can be used as:
+```
+$ git remote 
+```
+
+Git remote supports a specific option -v to show the URLs that Git has stored as a short name. These short names are used during the reading and write operation. It is used as:
+```
+$ git remote -v 
+```
+When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
+```
+$ git remote add <short name><remote URL>  
+```
+To fetch the data from your remote projects, run the below command:
+```
+$ git fetch <remote>  
+```
+To clone the remote repository from your remote projects, run the below command:
+```
+$ git clone<remote>  
+``` 
+When we clone a repository, the remote repository is added by a default name "origin." So, mostly, the command is used as git fetch origin.
+
+The git fetch origin fetches the updates that have been made to the remote server since you cloned it. The git fetch command only downloads the data to the local repository.
+To pull the repository, run the below command:
+```
+$ git pull <remote> 
+```  
+
+To share our project, you have to push it upstream. The git push command is used to share a project or send updates to the remote server. It is used as:
+```
+$ git push <remote><branch>  
+```
+To update the main branch of the project, use the below command:
+```
+$ git push origin master  
+```
+It is a special command-line utility that specifies the .
+
+We can remove a remote connection from a repository. To remove a connection, perform the git remote command with remove or rm option. It can be done as:
+```
+$ git remote rm <destination>  
+```
