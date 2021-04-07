@@ -42,3 +42,8 @@ The git clone is a command-line utility which is used to make a local copy of a 
 $ git clone <repository URL>
 ```
 
+## Git Head: 
+The HEAD points out the last commit in the current checkout branch. It is like a pointer to any reference. The HEAD can be understood as the "current branch." When we switch branches with 'checkout,' the HEAD is transferred to the new branch.
+```
+$ git show HEAD
+```
