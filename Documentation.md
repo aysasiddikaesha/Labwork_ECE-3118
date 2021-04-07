@@ -91,3 +91,9 @@ We can remove a remote connection from a repository. To remove a connection, per
 ```
 $ git remote rm <destination>  
 ```
+## Git Checkout
+
+ The git checkout command is used to switch between branches in a repository. Be careful with your staged files and commits when switching between branches.
+ ```
+$ git checkout <branchname> 
+ ```
