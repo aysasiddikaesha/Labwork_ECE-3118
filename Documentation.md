@@ -29,3 +29,10 @@ The git status command is used to display the state of the repository and stagin
 $ git status
 ```
 
+## Git Commit: 
+It is used to record the changes in the repository. It is the next command after the git add. Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
+
+``` 
+$ git commit -m "<Commit message>"
+```
+
