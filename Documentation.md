@@ -3,7 +3,7 @@
 
 ## **Some git commands:**
 
-## git init: 
+## Git Init: 
 
 We use this command for version controlling.
 
@@ -11,7 +11,7 @@ We use this command for version controlling.
 $ git init
 ```
 
-## git add:
+## Git Add:
 
 We use this  command for updates the current content of the working tree to the staging area. To stagged all the unstaged file we use:
 ```
@@ -21,7 +21,7 @@ And for stagging spacific file, We use:
 ```
 $ git add <file name>
 ```
-## git status: 
+## Git Status: 
 
 The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes.
 
