@@ -21,3 +21,11 @@ And for stagging spacific file, We use:
 ```
 $ git add <file name>
 ```
+* git status: 
+
+The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes.
+
+```
+$ git status
+```
+
