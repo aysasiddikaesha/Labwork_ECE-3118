@@ -36,3 +36,9 @@ It is used to record the changes in the repository. It is the next command after
 $ git commit -m "<Commit message>"
 ```
 
+## Git Clone: 
+The git clone is a command-line utility which is used to make a local copy of a remote repository. It accesses the repository through a remote URL. Usually, the original repository is located on a remote server, often from a Git service like GitHub. The remote repository URL is referred to the origin.
+```
+$ git clone <repository URL>
+```
+
